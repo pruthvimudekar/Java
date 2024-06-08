@@ -1,0 +1,13 @@
+//using the ternary operator ..
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+         
+       System.out.println("enter the value :");
+       
+       int number=sc.nextInt();
+       String type= ((number %2) == 0) ? "EVEN " : "ODD";
+       System.out.println("final ans is: "+ type);
+}
+}
