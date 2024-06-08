@@ -1,0 +1,14 @@
+// to check the marks or not 
+import java.util.*;
+public class passfail {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        
+        
+        System.out.println("Enter the value :");
+        int marks = sc.nextInt();
+        String type=(marks >=33)? "Pass" : "fail" ;
+        System.out.println(" Grade : "+ type);45
+       }
+    
+}
